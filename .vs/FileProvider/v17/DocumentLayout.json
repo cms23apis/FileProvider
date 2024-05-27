@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ossia\\Asp-2\\FileProvider\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1008C2-8D1B-4CC1-98D0-EE1D8E38A16F}|FileProvider\\FileProvider.csproj|c:\\users\\ossia\\asp-2\\fileprovider\\fileprovider\\functions\\fileuploader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1008C2-8D1B-4CC1-98D0-EE1D8E38A16F}|FileProvider\\FileProvider.csproj|solutionrelative:fileprovider\\functions\\fileuploader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1008C2-8D1B-4CC1-98D0-EE1D8E38A16F}|FileProvider\\FileProvider.csproj|c:\\users\\ossia\\asp-2\\fileprovider\\fileprovider\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EE1008C2-8D1B-4CC1-98D0-EE1D8E38A16F}|FileProvider\\FileProvider.csproj|solutionrelative:fileprovider\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "local.settings.json",
+              "DocumentMoniker": "C:\\Users\\ossia\\Asp-2\\FileProvider\\FileProvider\\local.settings.json",
+              "RelativeDocumentMoniker": "FileProvider\\local.settings.json",
+              "ToolTip": "C:\\Users\\ossia\\Asp-2\\FileProvider\\FileProvider\\local.settings.json",
+              "RelativeToolTip": "FileProvider\\local.settings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-27T07:42:13.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileUploader.cs",
+              "DocumentMoniker": "C:\\Users\\ossia\\Asp-2\\FileProvider\\FileProvider\\Functions\\FileUploader.cs",
+              "RelativeDocumentMoniker": "FileProvider\\Functions\\FileUploader.cs",
+              "ToolTip": "C:\\Users\\ossia\\Asp-2\\FileProvider\\FileProvider\\Functions\\FileUploader.cs",
+              "RelativeToolTip": "FileProvider\\Functions\\FileUploader.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T07:39:23.215Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
