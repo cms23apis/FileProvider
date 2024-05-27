@@ -1,9 +1,11 @@
 using Azure.Storage.Blobs;
+using Azure.Storage.Blobs.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Extensions.Logging;
 using System.Linq.Expressions;
+using System.Net.Mime;
 
 namespace FileProvider.Functions;
 
@@ -28,8 +30,15 @@ public class FileUploader(ILogger<FileUploader> logger)
                 string fileName = $"{Guid.NewGuid()}_{file.FileName}";
                 BlobClient blob = container.GetBlobClient(fileName);
 
-                using Stream stream = file.OpenReadStream();
-                await blob.UploadAsync(stream, true);
+                var headers = new BlobHttpHeaders
+                {
+                    ContentType = file.ContentType
+                };
+
+                using (Stream stream = file.OpenReadStream())
+                {
+                    await blob.UploadAsync(stream, headers);
+                }
 
                 return new OkObjectResult(blob.Uri);
             }
